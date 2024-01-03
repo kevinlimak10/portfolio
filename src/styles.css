@@ -7,7 +7,9 @@
 html,
 body {
   margin: 0px;
-  height: 100%;
+  height:100vh;
+  font-family: "Inter", Helvetica;
+
 }
 /* a blue color as a generic focus style */
 button:focus-visible {
@@ -17,3 +19,7 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
+
+html, body { min-height:100%; position:relative; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

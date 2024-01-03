@@ -4,5 +4,5 @@ import { PortifolioComponent } from '../core/portifolio/portifolio.component';
 
 export const routes: Routes = [
 
-    { path: 'main', component: PortifolioComponent, title: 'Portfolio' },
+    { path: '', component: PortifolioComponent, title: 'Portfolio' },
 ];

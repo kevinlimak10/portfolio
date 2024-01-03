@@ -1,21 +1,9 @@
-.desktop {
-  background-color: rgba(255, 255, 255, 1);
+.about{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  width: 100%;
 }
-
-.desktop .div {
-  background-color: rgba(255, 255, 255, 1);
-  background: linear-gradient(180deg, rgb(16.79, 23.5, 83.94) 0%, rgba(16.79, 23.5, 83.94, 0) 100%);
-  width: 1440px;
-  height: 1024px;
-  position: relative;
-}
-
-.desktop .text-wrapper {
-  position: absolute;
+.about .text-wrapper {
   width: 291px;
   top: 70px;
   left: 113px;
@@ -27,8 +15,7 @@
   line-height: normal;
 }
 
-.desktop .text-wrapper-2 {
-  position: absolute;
+.about .text-wrapper-2 {
   width: 273px;
   top: 106px;
   left: 113px;
@@ -38,10 +25,10 @@
   font-size: 40px;
   letter-spacing: 0;
   line-height: normal;
+  margin: 1% 0;
 }
 
-.desktop .p {
-  position: absolute;
+.about .p {
   width: 723px;
   top: 187px;
   left: 110px;
@@ -51,28 +38,26 @@
   font-size: 28px;
   letter-spacing: 0;
   line-height: normal;
+  margin: 1.5% 0;
 }
 
-.desktop .image {
+.about .image {
   width: 55px;
   left: 110px;
-  position: absolute;
   height: 55px;
   top: 303px;
   object-fit: cover;
 }
 
-.desktop .img {
+.about .img {
   width: 57px;
   left: 186px;
-  position: absolute;
   height: 55px;
   top: 303px;
   object-fit: cover;
 }
 
-.desktop .text-wrapper-3 {
-  position: absolute;
+.about .text-wrapper-3 {
   width: 206px;
   top: 431px;
   left: 110px;
@@ -82,10 +67,10 @@
   font-size: 36px;
   letter-spacing: 0;
   line-height: normal;
+  margin: 2% 0;
 }
 
-.desktop .i-m-tech-lead-at-CWI {
-  position: absolute;
+.about .i-m-tech-lead-at-CWI {
   width: 788px;
   top: 511px;
   left: 109px;
@@ -97,16 +82,14 @@
   line-height: normal;
 }
 
-.desktop .overlap {
+.about .overlap {
   top: 748px;
-  position: absolute;
   width: 278px;
   height: 54px;
   left: 108px;
 }
 
-.desktop .text-wrapper-4 {
-  position: absolute;
+.about .text-wrapper-4 {
   width: 278px;
   top: 0;
   left: 0;
@@ -116,10 +99,10 @@
   font-size: 36px;
   letter-spacing: 0;
   line-height: normal;
+
 }
 
-.desktop .sinal-de-seta-para {
-  position: absolute;
+.about .sinal-de-seta-para {
   width: 32px;
   height: 32px;
   top: 12px;
@@ -127,10 +110,16 @@
   object-fit: cover;
 }
 
-.desktop .overlap-group {
+.about .overlap-group {
   top: 825px;
-  position: absolute;
   width: 278px;
   height: 54px;
   left: 108px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10%;
 }

@@ -1,0 +1,7 @@
+<ul class="resume">
+    <li *ngFor="let experience of experiences">
+        <h2 class="time-experience">{{experience.start}} - {{experience.end}}</h2>
+        <h3 class="company-experience">{{experience.jobTitle}} - {{experience.company}} </h3>
+        <p class="description-experience">{{experience.description}}</p>
+    </li>
+  </ul>

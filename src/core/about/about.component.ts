@@ -7,7 +7,7 @@ import { CommonModule, NgOptimizedImage } from '@angular/common'
     templateUrl: './about.component.html',
     styleUrl: './about.component.css',
     standalone: true, 
-    imports: [ CommonModule ] 
+    imports: [ CommonModule, NgOptimizedImage ] 
 })
 export class AboutComponent {
 

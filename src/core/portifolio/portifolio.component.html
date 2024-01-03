@@ -1,1 +1,25 @@
-<about></about>
+<div class="portfolio">
+    <div class="container">
+        <about *ngIf="state.about"></about>
+        <div class="overlap">
+            <div class="projects">
+                <div class="text-wrapper-4">Resume</div>
+                <button mat-icon-button (click)="actionChangeState('resume')">
+                    <mat-icon *ngIf="!state.resume">keyboard_arrow_down</mat-icon>
+                    <mat-icon *ngIf="state.resume">keyboard_arrow_up</mat-icon>
+                </button>
+            </div>
+        </div>
+        <resume *ngIf="state.resume"></resume>
+        <div class="overlap-group">
+            <div class="projects">
+                <div class="text-wrapper-4">Projects</div>
+                <button mat-icon-button (click)="actionChangeState('projects')">
+                    <mat-icon *ngIf="!state.resume">keyboard_arrow_down</mat-icon>
+                    <mat-icon *ngIf="state.resume">keyboard_arrow_up</mat-icon>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <projects *ngIf="state.projects"></projects> -->

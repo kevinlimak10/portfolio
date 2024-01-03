@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [ RouterModule ],
   template: `
-  <main>
+  <main id="cloud-container">
     <section class="content">
       <router-outlet></router-outlet>
     </section>
