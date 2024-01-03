@@ -1,14 +1,8 @@
-import { RouterModule, Routes } from '@angular/router';
+import {  Routes } from '@angular/router';
 import { PortifolioComponent } from '../core/portifolio/portifolio.component';
-import { NgModule } from '@angular/core';
+
 
 export const routes: Routes = [
 
-    { path: '', component: PortifolioComponent },
+    { path: 'main', component: PortifolioComponent, title: 'Portfolio' },
 ];
-
-@NgModule({
-    imports: [RouterModule.forRoot(routes)],
-    exports: [RouterModule],
-})
-export class AppRoutingModule { }
