@@ -3,8 +3,8 @@ import { CommonModule, NgIf } from "@angular/common";
 import { RouterModule } from "@angular/router";
 import { AboutComponent } from "../about/about.component";
 import { ResumeComponent } from "../resume/resume.component";
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 import { ProjectsComponent } from "../projects/projects.component";
 import { StatePortfolio } from "../../domain/state.portfolio";
 
