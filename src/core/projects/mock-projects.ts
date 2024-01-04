@@ -3,7 +3,7 @@ import { Project } from "../../domain/project";
 export const PROJECTS: Project[] = [
     {
         title: 'Akka: Actor-Oriented Programming',
-        description: 'Akka is an open source library that helps you easily develop concurrent and distributed applications using Java or Scala by leveraging the Actor Model',
+        description: 'Akka is an open source library that helps you easily develop concurrent and distributed applications using Java or Scala by leveraging the Actor Model.',
         url: 'https://github.com/kevinlimak10/tech-talk-akka',
         img: '../../assets/akka.png'
     },
