@@ -1,0 +1,17 @@
+.project-row{
+    display: flex;
+    flex-direction: row;
+    margin: 2% 0;
+}
+
+.project-column-information{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.img-project{
+    object-fit: contain;
+}

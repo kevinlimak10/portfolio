@@ -1,8 +1,8 @@
 import {  Routes } from '@angular/router';
-import { PortifolioComponent } from '../core/portifolio/portifolio.component';
+import { PortfolioComponent } from '../core/portfolio/portfolio.component';
 
 
 export const routes: Routes = [
 
-    { path: '', component: PortifolioComponent, title: 'Portfolio' },
+    { path: '', component: PortfolioComponent, title: 'Portfolio' },
 ];

@@ -1,0 +1,13 @@
+<ul class="projects-list">
+    <li *ngFor="let project of projects">
+        <div class="project-row">
+            <a href="{{project.url}}">
+                <img class="img-project" ngSrc="{{project.img}}" width="120" height="120">
+            </a>
+            <div class="project-column-information">
+                <h1>{{project.title}}</h1>
+                <p>{{project.description}}</p>
+            </div>
+        </div>
+    </li>
+  </ul>
