@@ -15,11 +15,11 @@
             <div class="projects">
                 <div class="text-wrapper-4">Projects</div>
                 <button mat-icon-button (click)="actionChangeState('projects')">
-                    <mat-icon *ngIf="!state.resume">keyboard_arrow_down</mat-icon>
-                    <mat-icon *ngIf="state.resume">keyboard_arrow_up</mat-icon>
+                    <mat-icon *ngIf="!state.projects">keyboard_arrow_down</mat-icon>
+                    <mat-icon *ngIf="state.projects">keyboard_arrow_up</mat-icon>
                 </button>
             </div>
         </div>
+        <projects *ngIf="state.projects"></projects>
     </div>
 </div>
-<!-- <projects *ngIf="state.projects"></projects> -->

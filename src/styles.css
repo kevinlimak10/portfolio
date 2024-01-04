@@ -7,7 +7,6 @@
 html,
 body {
   margin: 0px;
-  height:100vh;
   font-family: "Inter", Helvetica;
 
 }
@@ -21,5 +20,13 @@ a {
 }
 
 html, body { min-height:100%; position:relative; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(145deg, rgb(16.79, 23.5, 83.94) 53%, rgba(16.79, 23.5, 83.94, 0) 100%);
+}
 

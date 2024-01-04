@@ -6,6 +6,7 @@ import { StatePortifolio } from "../../domain/state.portifolio";
 import { ResumeComponent } from "../resume/resume.component";
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { ProjectsComponent } from "../projects/projects.component";
 
 @Component({
     standalone: true,
@@ -14,6 +15,7 @@ import {MatButtonModule} from '@angular/material/button';
         RouterModule,
         AboutComponent,
         ResumeComponent,
+        ProjectsComponent,
         MatButtonModule, 
         MatIconModule,
         NgIf,
