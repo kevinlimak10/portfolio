@@ -6,7 +6,7 @@ import { NgFor, NgOptimizedImage } from "@angular/common";
     selector: 'projects',
     standalone: true,
     templateUrl: './projects.component.html',
-    styleUrl: 'projects.component.css',
+    styleUrls: ['./projects.component.css'],
     imports: [ NgFor, NgOptimizedImage ]
 })
 export class ProjectsComponent{

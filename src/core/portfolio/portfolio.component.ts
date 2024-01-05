@@ -21,7 +21,7 @@ import { StatePortfolio } from "../../domain/state.portfolio";
         NgIf,
     ],
     selector: 'portfolio',
-    styleUrl: './portfolio.component.css',
+    styleUrls: ['./portfolio.component.css'],
     templateUrl: './portfolio.component.html'
 })
 export class PortfolioComponent {

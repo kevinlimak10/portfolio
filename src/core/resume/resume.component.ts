@@ -5,7 +5,7 @@ import { EXPERIENCES } from "./mock-resume";
 @Component({
     selector: 'resume',
     templateUrl: './resume.component.html',
-    styleUrl: './resume.component.css',
+    styleUrls: ['./resume.component.css'],
     standalone: true,
     imports: [
         NgFor

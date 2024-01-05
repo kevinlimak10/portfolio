@@ -1,3 +1,19 @@
 .description-experience{
     width: 80%;
 }
+
+.time-experience{
+    font-family: "Inter", Helvetica;
+    font-size: 22px;
+    margin: 2% 0;
+}
+
+.company-experience{
+    font-size: 18px;
+    margin: 1% 0;
+}
+
+.description-experience{
+    font-size: 12px;
+    margin: 1% 0;
+}
