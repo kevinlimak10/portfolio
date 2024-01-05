@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
     </section>
   </main>
 `,
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'portfolio';
