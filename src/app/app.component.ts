@@ -3,8 +3,6 @@ import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [ RouterModule ],
   template: `
   <main id="cloud-container">
     <section class="content">
